@@ -1,5 +1,8 @@
-import * as React from "react"
-import Layout from "../components/layout"
+import * as React from "react";
+import Layout from "../components/layout";
+import {StaticImage} from "gatsby-plugin-image";
+
+
 
 
 
@@ -137,15 +140,19 @@ const IndexPage = () => {
           <div className="navbar">
             <h2 className="logo">Sports<span className>X</span>treme</h2>
             <ul className="nav-links">
-              <li>Men</li>
-              <li>Women</li>
-              <li>Kids</li>
-              <li>sports</li>
-              <li>Brands</li>
-              <li>Collections</li>
+              <li><a href="#"></a>Men</li>
+              <li><a href="#"></a>Women</li>
+              <li><a href="#"></a>Kids</li>
+              <li><a href="#"></a>sports</li>
+              <li><a href="#"></a>Brands</li>
+              <li><a href="#"></a>Collections</li>
             </ul>
             <input type="text" placeholder="Search" className="search-bar"/>
           </div>
+      </div>
+      <div className="main">
+        <StaticImage src="https://unsplash.com/photos/d3bYmnZ0ank"/>
+       
       </div>
       
       
